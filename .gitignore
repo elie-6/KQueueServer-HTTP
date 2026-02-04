@@ -1,0 +1,22 @@
+# Build output
+build/
+!build/.gitkeep
+
+# Executables (just in case)
+server
+
+# C++ artifacts
+*.o
+*.out
+*.a
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE personal stuff
+.vscode/settings.json
+.vscode/*.code-workspace
+
+# Debug / logs
+*.log
